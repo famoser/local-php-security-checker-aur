@@ -1,5 +1,4 @@
 # local-php-security-checker AUR Package
-[![Build Status](https://app.travis-ci.com/famoser/local-php-security-checker-aur.svg?branch=master)](https://app.travis-ci.com/famoser/local-php-security-checker-aur)
 
 ## Update package
 
