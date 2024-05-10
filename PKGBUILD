@@ -2,15 +2,15 @@
 
 pkgname=local-php-security-checker
 pkgrel=1
-pkgver=2.0.6
+pkgver=2.1.3
 pkgdesc="PHP security vulnerabilities checker."
 url="https://github.com/fabpot/local-php-security-checker"
 arch=('x86_64')
 license=('AGPL3')
 source=(
-    "$pkgname-$pkgver::https://github.com/fabpot/local-php-security-checker/releases/download/v${pkgver}/${pkgname}_${pkgver}_linux_amd64"
+    "$pkgname-$pkgver::https://github.com/fabpot/local-php-security-checker/releases/download/v${pkgver}/${pkgname}_linux_amd64"
 )
-sha256sums=('314309702970bd8f2eed68301c3c42012a938fb8ae5c977c4ab0db57bb69b23c')
+sha256sums=('db03c8c1806924081093fb6e3f752597a6d2ed6aea4621365e87e69d4814fd6c')
 
 package() {
     install -D -m 755 "${srcdir}/$pkgname-$pkgver" "${pkgdir}/usr/bin/local-php-security-checker"
